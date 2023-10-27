@@ -4,7 +4,7 @@ variable "github_name" {
 }
 
 variable "github_visibility" {
-  default     = "private"
+  default     = "public"
   description = "The visibility of repository"
   type        = string
 }
