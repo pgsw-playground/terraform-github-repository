@@ -5,7 +5,7 @@ resource "github_repository" "example" {
   visibility = "public"
 
   template {
-    owner                = "pgsw-pogosoftware"
+    owner                = "pgsw-playground"
     repository           = "terraform-github-devops-repository-template"
     include_all_branches = false
   }
